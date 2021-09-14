@@ -6,6 +6,7 @@
 body{
   background-color: lightgray;
   font-family: 'Rubik', sans-serif;
+  color: rgb(100, 89, 89);
 }
 header{
   background-color: white;
@@ -55,9 +56,12 @@ vertical-align: 15px;
 
 }
 /* INIZIO SEZIONI */
-section{
-  padding-left:40px;
+section.head{
   padding-top: 40px;
+}
+section{
+  padding-left: 40px;
+  padding-bottom: 40px ;
 }
 
 .arrow{
@@ -66,11 +70,18 @@ section{
 .title-sect{
   display: inline-block;
 }
+/*caratteristiche check-cross*/
 .check{
   padding: 2px;
   border: 1px solid lightgreen;
   border-radius: 50%;
   color:lightgreen;
+}
+.cross{
+  padding: 2px;
+  border: 1px solid red;
+  border-radius: 50%;
+  color:red;
 }
 /* Caratteristiche contenitori interni alle sezioni */
 .second-contain{
@@ -78,10 +89,17 @@ section{
   margin-bottom: 10px;
 }
 /* caratteristiche bottoni */
+
+.button{
+  color:white;
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
 .button.blue{
   background-color: dodgerblue;
-  color:white;
- 
+
 }
 .button.purple{
  background-color: violet;
@@ -91,10 +109,4 @@ section{
 }
 .button.orange{
   background-color: orange;
-}
-.button{
-  display: inline-block;
-  font-size: 10px;
-  padding: 5px;
-  border-radius: 5px;
 }
