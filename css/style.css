@@ -1,0 +1,100 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: lightgray;
+  font-family: 'Rubik', sans-serif;
+}
+header{
+  background-color: white;
+  padding-top: 10px;
+  padding-left: 15px;
+  
+}
+
+header span{
+
+font-size: 30px;
+vertical-align: 15px;
+}
+/* PRIMO CONTENITORE */
+.contain{
+  width: 80%;
+  margin:auto;
+  background-color: white;
+}
+.main{
+  height: 50px;
+  margin-top: 30px;
+  border-top-left-radius: 5px ;
+  border-top-right-radius: 5px;
+  
+}
+.first-button{
+  margin-top:15px ;
+  margin-left: 40px;
+  background-color: dodgerblue;
+  border: dodgerblue;
+  padding:5px;
+  color: white;
+  border-radius: 5px;
+}
+.second-button{
+  background-color: rgb(255, 255, 255);
+  border:1px solid lightgray;
+  padding:4px;
+  color: lightgray;
+  border-radius: 5px;
+
+}
+/* BORDO SEPARATORE */
+.line{
+  border-bottom:2px solid lightgrey;
+
+}
+/* INIZIO SEZIONI */
+section{
+  padding-left:40px;
+  padding-top: 40px;
+}
+
+.arrow{
+ font-size: 10px;
+}
+.title-sect{
+  display: inline-block;
+}
+.check{
+  padding: 2px;
+  border: 1px solid lightgreen;
+  border-radius: 50%;
+  color:lightgreen;
+}
+/* Caratteristiche contenitori interni alle sezioni */
+.second-contain{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* caratteristiche bottoni */
+.button.blue{
+  background-color: dodgerblue;
+  color:white;
+ 
+}
+.button.purple{
+ background-color: violet;
+}
+.button.green{
+ background-color: green;
+}
+.button.orange{
+  background-color: orange;
+}
+.button{
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
