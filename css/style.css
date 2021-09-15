@@ -1,113 +1,116 @@
+/* GLOBAL */
 *{
-  margin: 0px;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 body{
-  background-color: rgb(236, 236, 236);
   font-family: 'Rubik', sans-serif;
-  color: rgb(100, 89, 89);
+  background-color: rgb(244, 243, 252);
+  color: rgb(46, 46, 46);
 }
 header{
+  padding: 10px 0px 10px 30px;
   background-color: white;
-  padding-top: 10px;
-  padding-left: 15px;
-  
+  margin-bottom: 40px;
+}
+.container{
+  width: 70%;
+  background-color: white;
+  margin: 50px auto;
+  border-radius:  5px;
+}
+/* HEAD */
+img.logo{
+  vertical-align: middle;
+}
+span.tobo{
+  vertical-align: middle;
+  font-size: 40px;
 }
 
-header span{
-
-font-size: 30px;
-vertical-align: 15px;
+/* Global button */
+button{
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
 }
-/* PRIMO CONTENITORE */
-.contain{
-  width: 80%;
-  margin:auto;
-  background-color: white;
-}
-.main{
-  height: 50px;
-  margin-top: 30px;
-  border-top-left-radius: 5px ;
-  border-top-right-radius: 5px;
-  
-}
-.first-button{
-  margin-top:15px ;
-  margin-left: 40px;
-  background-color: dodgerblue;
-  border: dodgerblue;
-  padding:5px;
+/* local button */
+button.task{
   color: white;
-  border-radius: 5px;
+  background-color: rgb(113, 113, 243);
+  border:1px solid rgb(113, 113, 243);
 }
-.second-button{
-  background-color: rgb(255, 255, 255);
-  border:1px solid lightgray;
-  padding:4px;
-  color: lightgray;
-  border-radius: 5px;
-
+button.section{
+  background-color: white;
+  border: 1px solid rgb(170, 166, 166);
+  color: rgb(170, 166, 166);
 }
-/* BORDO SEPARATORE */
-.line{
-  border-bottom:2px solid lightgrey;
-
-}
-/* INIZIO SEZIONI */
-section.head{
-  padding-top: 40px;
-}
-section{
-  padding-left: 40px;
-  padding-bottom: 40px ;
+/* arrow */
+ul h3::before{
+  content: '\25BE';
 }
 
-.arrow{
- font-size: 10px;
+h3{
+  margin-top: 25px;
 }
-.title-sect{
-  display: inline-block;
+.top{
+  border-bottom: 1px solid lightgray;
+  padding: 15px 40px;
+  
 }
-/*caratteristiche check-cross*/
+
+.bottom{
+  padding: 15px 40px;
+}
+li{
+  list-style: none;
+  margin-top: 15px;
+}
+/*  global check and cross */
 .check,.cross{
-  font-size: 10px;
+  display: inline-block;
+  font-size: 15px;
+  text-align: center;
+  line-height:20px ;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  padding :  2px;
 }
+/* loca check cross */
 .check{
-  border: 1px solid lightgreen;
-  color:lightgreen;
+  border: 1px solid green;
+  color: green;
 }
 .cross{
-  border: 1px solid red;
-  color:red;
+  border: 1px solid rgb(128, 0, 0);
+  color: rgb(128, 0, 0);
 }
-/* Caratteristiche contenitori interni alle sezioni */
-.second-contain{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-/* caratteristiche bottoni */
-
-.button{
-  color:white;
+/* global tag */
+.tag{
   display: inline-block;
+  color: white;
   font-size: 10px;
   padding: 5px;
   border-radius: 5px;
+  font-style:normal;
 }
-.button.blue{
-  background-color: dodgerblue;
-
+/* background color tag */
+.tag.editors{
+  background-color: rgb(93, 93, 245);
 }
-.button.purple{
- background-color: violet;
+.tag.q{
+  background-color: rgb(148, 71, 163);
 }
-.button.green{
- background-color: green;
+.tag.recluting{
+  background-color: mediumaquamarine;
 }
-.button.orange{
-  background-color: orange;
+.tag.mobile{
+  background-color: sandybrown;
+}
+.tag.sales{
+  background-color: rgb(205, 202, 50);
+}
+.tag.website{
+  background-color: rgba(243, 86, 204, 0.986);
 }
